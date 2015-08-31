@@ -1,0 +1,200 @@
+html, body 	{
+	color: white;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	background: #d92fef; /* Old browsers */
+	background: -moz-linear-gradient(45deg, #d92fef 0%, #7ae2d6 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#d92fef), color-stop(100%,#7ae2d6)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(45deg, #d92fef 0%,#7ae2d6 100%); /* Chrome10+,Safari5.1+ */
+	background: linear-gradient(45deg, #d92fef 0%,#7ae2d6 100%); /* W3C */
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+input{
+	color: black
+}
+
+.wrap{
+	position: relative;
+	width: 100%;
+
+}
+
+.container {
+	top: 0;
+	left: 50%;
+	z-index: 1;
+	position: absolute;
+	width: 400px;
+	height: 100%;
+	padding: 20px;
+	margin: auto;
+	margin-top: 15%;
+	margin-left: -200px;
+}
+.bignumber {
+	margin-left: 17%;
+	font-size: 15em;
+	text-align: center;
+	float: left;
+	width: 100%;
+}
+
+.coffees{
+	top: 10%;
+	left: 50%;
+	z-index: 2;
+	position: absolute;
+	width: 400px;
+	height: 100%;
+	padding: 20px;
+	margin: auto;
+	margin-top: 15%;
+	margin-left: -200px;
+}
+
+.face {
+	top: 0;
+	left: 50%;
+	z-index: 2;
+	position: absolute;
+	width: 400px;
+	height: 100%;
+	padding: 20px;
+	margin: auto;
+	margin-top: 12%;
+	margin-left: -200px;
+}
+.hat {
+	top: 10%;
+	left: 50%;
+	z-index: 8;
+	position: absolute;
+	width: 400px;
+	height: 100%;
+	padding: 20px;
+	margin: auto;
+	margin-top: 7%;
+	margin-left: -200px;
+}
+
+
+.sunglasses {
+	position: absolute;
+	z-index: 2;
+	margin-left: 12%; 
+	margin-top: 25%;
+}
+
+.hot_coffee {
+	position: absolute;
+	z-index: 7;
+	margin-left: 10%;
+	margin-top: 40%;
+}
+.ice_coffee {
+	position: absolute;
+	z-index: 2;
+	margin-left: 10%;
+	margin-top: 40%;
+}
+.ice_coffee_hotter {
+	position: absolute;
+	z-index: 7;
+	margin-left: 10%;
+	margin-top: 40%;
+}
+
+.scarf {
+	position: absolute;
+	z-index: 3;
+	margin-left: 12%; 
+	margin-top: 55%;
+}
+//toque taken out for now. need to do some css hacking
+.toque {
+	position: absolute;
+	z-index: 3;
+	margin-left: 12%; 
+}
+
+
+.visor {
+	position: absolute;
+	z-index: 3;
+	margin-top: 10%;
+	margin-left: 12%; 
+}
+
+.fahrenheit{
+	float: left;
+}
+ .celsius {
+ 	float: left;
+
+ }
+
+.bigsymb{
+	font-family: 'Courgette', cursive;
+	padding-top: 2%;
+	float: left;
+	font-size: .3em;
+}
+
+.smallsymb{
+	font-family: 'Courgette', cursive;
+	float: left;
+	font-size: .3em;
+}
+
+.smallcon{
+	font-family: 'Courgette', cursive;
+	position: relative;
+	height: 20%;
+	cursor: pointer;
+	padding-left: 60%;
+	font-size: 3em;
+	float: left;
+	width: 100%;
+}
+
+.swap{
+	position: absolute;
+	margin-top: 1.5%;
+
+	z-index: 2;
+	font-size: .7em;
+	font-family: pacifico;
+	color: #ED1384;
+	-ms-transform: rotate(-25deg); /* IE 9 */
+    -webkit-transform: rotate(-25deg); /* Chrome, Safari, Opera */
+    transform: rotate(-25deg);
+}
+
+
+.smallnumber {
+position: absolute;
+z-index: 1;
+}
+
+
+.swap span:hover {
+    color:#EF89B0;
+	transition: color 320ms;
+}
+
+.swap span:active {
+    color:#B71379;
+	transition: color 320ms;
+}
+
+
+
+
+
